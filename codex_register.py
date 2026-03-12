@@ -4,9 +4,9 @@ codex 账号协议注册
 通过 MailAPI 获取验证码。
 
 用法:
-    python api_register.py                         # 默认配置
-    python api_register.py --proxy http://ip:port  # 指定代理
-    python api_register.py --workers 5             # 并发数
+    python codex_register.py                         # 默认配置
+    python codex_register.py --proxy http://ip:port  # 指定代理
+    python codex_register.py --workers 5             # 并发数
 """
 
 import base64
@@ -53,7 +53,7 @@ LOCAL_REDIRECT_URI = f"http://localhost:{LOCAL_CALLBACK_PORT}/auth/callback"
 
 # 文件路径
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "tokens")
-LOG_FILE = os.path.join(SCRIPT_DIR, "api_register.log")
+LOG_FILE = os.path.join(SCRIPT_DIR, "codex_register.log")
 PROXY_CACHE_FILE = os.path.join(SCRIPT_DIR, "proxy_cache.json")
 
 
@@ -893,4 +893,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
