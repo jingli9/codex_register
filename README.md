@@ -77,7 +77,9 @@ python codex_register.py --count 1 --workers 1
 python codex_register.py --count 20 --workers 5
 ```
 <img width="889" height="482" alt="image" src="https://github.com/user-attachments/assets/323147d4-65d1-4cfd-8d9b-b5fcaee6f010" />
+
 `本地网络太差了，请求一个网址要好久，如果部署再云端的话会快不少，单线程平均1-3s一个账号`
+
 ## 运行流程（按当前代码）
 
 1. 随机生成邮箱与密码。
