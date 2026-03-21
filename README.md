@@ -4,6 +4,7 @@
 项目参考：https://github.com/Ethan-W20/openai-auto-register
 
 本项目依旧可用，如无法注册请自行检查代理质量和对应域名邮箱是否被拉黑
+# openai已经拉闸，着急的自己改代码，不着急的等我慢慢更新，目前openai改了workplace_id的获取方式
 
 ## 免责声明
 
